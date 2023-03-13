@@ -109,7 +109,7 @@ form.addForm {
   align-items: center;
   margin: 0.5rem 0 0;
 }
-.addForm label{
+.addForm label, .searchForm label{
   color: red;
   position: absolute;
   left: -999999px;
@@ -124,7 +124,7 @@ form.addForm {
   border-radius: 5px;
   flex: 1;
 }
-.addForm button{
+.addForm button {
   width: 48px;
   height: 48px;
   cursor: pointer;
@@ -139,4 +139,20 @@ button:focus, button:hover{
   color: white;
   background-color: limegreen;
   outline: none;
+}
+.searchForm{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 0.25rem 0 0;
+  width: 100%;
+}
+.searchForm input{
+  padding: 5px;
+  font-size: 16px;
+  min-height: 48px;
+  margin: 0 0.25rem;
+  outline: none;
+  border-radius: 5px;
+  flex: 1;
 }
