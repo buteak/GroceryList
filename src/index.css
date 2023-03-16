@@ -28,13 +28,13 @@ body{
 }
 header{
   width: calc(100% - 2px);
-  padding: 0 0.25em;
+  padding: 1rem;
   height: 5vh;
-  color: white;
+  color: #f5f5f5;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: red;
+  background-color: palevioletred;
   
 }
 main{
@@ -51,9 +51,9 @@ height: 5vh;
 display: flex;
 justify-content: center;
 align-items: center;
-color:white;
+color:#f4f4f4;
 width: 100%;
-background-color: red;
+background-color: palevioletred;
 }
 ul{
   width: 100%;

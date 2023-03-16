@@ -2,23 +2,13 @@
   "items": [
     {
       "id": 1,
-      "checked": true,
-      "item" : "Mango"
+      "checked": false,
+      "item": "kamal"
     },
     {
       "id": 2,
       "checked": false,
-      "item" : "Banana"
-    },
-    {
-      "id": 3,
-      "checked": true,
-      "item" : "Orange"
-    },
-    {
-      "id": 4,
-      "checked": true,
-      "item" : "Apple"
+      "item": "shola"
     }
   ]
 }
